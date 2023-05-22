@@ -1,4 +1,4 @@
- body {background:#828282;}
+body {background:#828282;}
 
 YY{ 
   background-color: blue;
@@ -10,4 +10,13 @@ YY{
   margin-left:50px; 
   margin-right:50px; 
   margin-bottom:50px;   
+}
+
+.video-back{ 
+position:fixed;
+top:0;   
+left:0;
+min-width:100%;
+min-height:100%;
+z-index:-1;  
 }
